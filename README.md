@@ -1,4 +1,4 @@
 # NodejsBasedGame
 
-1. Index.html is the main file which has all the code and logic in it, review it for 
+1. Index.js is the main file which has all the code and logic in it, review it for 
    better understanding. 
