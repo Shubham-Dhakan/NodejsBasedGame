@@ -39,7 +39,28 @@ var array = [{
 {
   que: "Where do you study?",
   ans: "UWindsor"
+},
+{
+  que: "Where Shubham is living right now?",
+  ans: "Windsor"
+},
+{
+  que: "What is Shubham's favorite fast food restaurant?",
+  ans: "Subway"
+},
+{
+  que: "Which Car Shubham drives?",
+  ans: "Ecosport"
+},
+{
+  que: "Who is the best NBA Player?",
+  ans: "lebronJames"
+},
+{
+  que: "Who won 2022 NBA Championship?",
+  ans: "GSW"
 }
+
 ];
 
 for (var i = 0; i <= array.length; i++) {
@@ -47,5 +68,9 @@ for (var i = 0; i <= array.length; i++) {
   play(fnc.que, fnc.ans);
   console.log("current count of right answer: " + count);
   console.log("----------------------");
-
+  if (count == 5) {
+    console.log("You reached to level two");
+  } else if (count == 10) {
+    console.log("You reached level three");
+  }
 }
