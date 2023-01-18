@@ -1,5 +1,5 @@
 var readlineSync = require("readline-sync");
-var question = readlineSync.question("Which car do you like the most?");
+var question = readlineSync.question("Which car shubham likes the most?");
 console.log("Great " + question + " is a beautiful car! ");
 count = 0;
 
@@ -17,27 +17,27 @@ function play(question, answer) {
 
 
 var array = [{
-  que: "What color do you prefer while buying car?",
+  que: "Which color shubham will prefer while buying car?",
   ans: "grey"
 },
 
 {
-  que: "What segment do you prefer while buying car?",
+  que: "Which segment Shubham will prefer while buying car?",
   ans: "SUV"
 },
 
 {
-  que: "What is your homeTowm? ",
+  que: "What is Shubhams homeTowm? ",
   ans: "Jamnagar"
 },
 
 {
-  que: "Where do you work? ",
+  que: "Where does Shubham work? ",
   ans: "Walmart"
 },
 
 {
-  que: "Where do you study?",
+  que: "Where does Shubham you study?",
   ans: "UWindsor"
 },
 {
